@@ -48,4 +48,11 @@ public class Guest
 	{
 		this.discount = discount;
 	}
+	public void print()
+	{
+		System.out.println("ID: "+id);
+		System.out.println("Name: "+name);
+		System.out.println("Email: "+email);
+		System.out.println("Discount: "+discount);
+	}
 }
